@@ -58,3 +58,8 @@ fusermount -qzu LocalFolder onedrive（创建时的Name）
 Rclone 开机启动（请下载rcloned文件）
 
 nano /etc/init.d/rcloned 或 vi /etc/init.d/rcloned 内容请下载rcloned文件
+
+操作命令
+chmod +x /etc/init.d/rcloned
+/etc/init.d/rcloned start
+/etc/init.d/rcloned stop
